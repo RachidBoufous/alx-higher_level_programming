@@ -1,0 +1,1 @@
+First python repo in alx program, covering the basics of python
