@@ -1,1 +1,2 @@
-First python repo in alx program, covering the basics of python
+python introduction:
+0. a shell script to run a python file
