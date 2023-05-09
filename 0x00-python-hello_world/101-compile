@@ -1,10 +1,2 @@
 #!/bin/bash
-
-# Get the Python file name from the environment variable
-PYFILE=$PYFILE
-
-# Compile the Python file
-python -m py_compile $PYFILE
-
-# Rename the compiled file
-mv "${PYFILE}c" "${PYFILE%.*}.pyc"
+python3 -c "import py_compile; py_compile.compile('$PYFILE', '$PYFILE' + 'c')"
