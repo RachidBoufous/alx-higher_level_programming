@@ -5,7 +5,6 @@ from add_0 import add
 a = 1
 b = 2
 
-# calling the add function with a and b as arguments and storing the result in a variable
 result = add(a, b)
 
 # printing the output in the required format
