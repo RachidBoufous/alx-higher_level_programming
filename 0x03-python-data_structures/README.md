@@ -1,0 +1,1 @@
+0. print all the integers in a list
