@@ -4,7 +4,7 @@ def print_matrix_integer(matrix=[[]]):
     Args:
         matrix (list, optional): matrix to print. Defaults to [[]].
     """
-    for i in matrix:
-        for j in i:
-            print("{:d}".format(j), end=" ")
+    for row in matrix:
+        for col in row:
+            print("{:d}".format(col), end=" " if col != row[-1] else "")
         print()
