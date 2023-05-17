@@ -4,7 +4,8 @@ def uniq_add(my_list=[]):
     """sum of unique items
 
     Args:
-        my_list (list of integers, optional): list of integers, maybe repeated. Defaults to [].
+        my_list (list of integers, optional): list of integers,
+        maybe repeated. Defaults to [].
 
     Returns:
         int: the result of the sum of unique items
