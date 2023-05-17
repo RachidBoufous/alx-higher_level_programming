@@ -4,7 +4,7 @@ def common_elements(set_1, set_2):
     """return common elements in both sets
 
     Args:
-        set_1 (set): set 1 
+        set_1 (set): set 1
         set_2 (set): set 2
 
     Returns:
