@@ -10,4 +10,9 @@ def only_diff_elements(set_1, set_2):
     Returns:
         set: diff elements
     """
-    return set_1 | set_2
+    set3 = set_1 | set_2
+
+    for item in set3.copy():
+        if item in set_1 and item in set_2:
+            set3.remove(item)
+    return set3
