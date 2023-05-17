@@ -10,11 +10,4 @@ def only_diff_elements(set_1, set_2):
     Returns:
         set: diff elements
     """
-    diffElements = []
-    for i in set_1:
-        if i not in set_2:
-            diffElements.append(i)
-    for i in set_2:
-        if i not in set_1:
-            diffElements.append(i)
-    return set(diffElements)
+    return set_1 | set_2
