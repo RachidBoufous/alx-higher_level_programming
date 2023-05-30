@@ -1,0 +1,1 @@
+0. empty square class
